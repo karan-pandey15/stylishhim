@@ -1,0 +1,82 @@
+.main_div_container_style {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #fcf7ee;
+  margin-bottom: 80px;
+  justify-content: center;
+  padding: 20px 0;
+}
+.banner_image_Firstcontainer {
+  width: 600px;
+  height: 500px;
+  background-image: url("https://wdtlilac.wpengine.com/wp-content/uploads/2023/06/banr-tab-image.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+  color: #fff;
+  font-size: 18px;
+  position: relative;
+}
+
+.banner_image_Firstcontainer::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.EightBanner_cart_style {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 20px;
+  display: none;
+}
+
+.banner_main_heading {
+  margin-top: 50px;
+}
+.banner_main_heading {
+  color: #fff;
+  font-size: 2rem;
+  font-weight: bold;
+  position: relative;
+}
+
+.banner_para {
+  color: #fff;
+  margin-top: 20px;
+}
+.banner_second_para {
+  margin-top: 50px;
+}
+.banner_second_heading {
+  color: #fff;
+  margin-top: 20px;
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+@media screen and (max-width: 850px) {
+  .EightBanner_cart_style {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .main_div_container_style {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  .second_container {
+    margin-top: 20px;
+  }
+  .EightBanner_cart_style {
+    display: block;
+  }
+}

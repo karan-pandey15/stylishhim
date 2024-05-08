@@ -1,0 +1,30 @@
+.main_button_container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.bannerPage_cart__button {
+  height: 50px;
+  width: 140px;
+  border: 1px solid #ecdec1;
+  cursor: pointer;
+  border-radius: 5px;
+  margin: 10px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  font-weight: bold;
+}
+
+.bannerPage_cart__button:hover {
+  transition: left 0.3s ease; /* Adjust the transition speed as needed */
+  background-color: #ecdec1;
+  color: #fff;
+
+  transition: left 1s ease; /* Adjust the transition speed as needed */
+}
+
+.bannerPage_cart__button .icon_banner {
+  margin-right: 10px;
+}

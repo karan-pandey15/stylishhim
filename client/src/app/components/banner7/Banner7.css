@@ -1,0 +1,42 @@
+/* Hide scrollbar on computer screens */
+.banner_container {
+  overflow-x: auto; /* Enable horizontal scrolling */
+  overflow-y: hidden; /* Disable vertical scrolling */
+  white-space: nowrap; /* Prevent wrapping of items */
+  display: flex; /* Ensure flex behavior */
+  scroll-behavior: smooth; /* Smooth scrolling */
+}
+
+/* Style the scrollbar for webkit browsers */
+.banner_container::-webkit-scrollbar {
+  display: none; /* Hide the scrollbar */
+}
+
+.banner_inner_container {
+  display: flex; /* Ensure flex behavior */
+}
+
+.banner_main_container {
+  min-width: 280px; /* Ensure minimum width for each item */
+  height: 450px;
+  background-color: #fcf7ee;
+}
+
+.banner_paragraph {
+  font-size: 14px;
+}
+
+.banner_image {
+  margin-top: 40px;
+}
+
+@media screen and (max-width: 650px) {
+  .banner_main_container {
+    height: auto; /* Let the height adjust to content */
+  }
+
+  .banner_image {
+    height: 200px;
+    width: 280px;
+  }
+}

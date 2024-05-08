@@ -1,0 +1,27 @@
+.side_cart_button {
+  display: flex;
+  flex-wrap: wrap;
+}
+.sidecartchild_container_image {
+  height: 140px;
+  width: 110px;
+}
+.sidecartchild_container {
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fcf7ee;
+}
+.side_content_heading {
+  margin-left: 20px;
+}
+.side_cart_heading {
+  font-weight: 500;
+}
+.star {
+  font-size: 20px;
+}
+.star-empty {
+  font-size: 20px;
+}

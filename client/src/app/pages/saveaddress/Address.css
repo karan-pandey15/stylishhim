@@ -1,0 +1,118 @@
+.register_main_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FCF7EE;
+}
+ 
+
+.register_child_container{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: auto;
+    margin-top: 50px;
+    /* background-color: #FCF7EE; */
+}
+.registerImg{
+    width: 400px;
+    height: 500px;
+
+}
+ 
+
+.form_button{
+   
+    margin-top: 20px;
+}
+
+.form_para{
+    margin: 20px 0;
+    font-weight: bold;
+}
+
+
+    /* form style start here  */
+    .formcontainer {
+        width: 50%; /* Adjust this width as needed */
+        margin: 0 auto;
+      }
+      .form_heading{
+        margin: 10px 0;
+        font-size: 22px;
+        font-weight: bold;
+
+      }
+      
+      .form-row {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 10px;
+      }
+      .input_form{
+        border: 1px solid black;
+        padding: 5px;
+        border-radius: 2px;
+        /* width: 350px; */
+      }
+      
+      .form-group {
+        flex: 1;
+        margin-right: 10px;
+      }
+      
+      .form-group:last-child {
+        margin-right: 0;
+      }
+      
+      label {
+        display: block;
+      }
+      
+      input[type="text"] {
+        width: 100%;
+      }
+      input[type="number"] {
+        width: 100%;
+      }
+      
+      .center-text {
+        text-align: center;
+      }
+
+      .form_button{
+        width: 100%;
+        padding: 8px;
+        font-weight: 500;
+        font-size: 20px;
+        background-color: #764ABC;
+      }
+  
+@media screen and (max-width: 650px) {
+    .child_cart_div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 20px 0;
+    }
+    .formcontainer{
+        width: 100%;
+        padding: 10px;
+    }
+    .cart_img_style{
+        margin: 5px 0;
+    }
+    .cart_heading{
+        margin: 5px 0;
+    }
+}
+@media screen and (max-width: 650px) {
+    .register_child_container{
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 4px;
+    }
+
+}

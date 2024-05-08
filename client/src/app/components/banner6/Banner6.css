@@ -1,0 +1,63 @@
+.background_image_section_container {
+  width: 100%;
+  height: fit-content;
+  background-image: url("../../../../public/mask-patten-style.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: #fcf2dc;
+  padding: 80px 0;
+}
+.background_image_div_container {
+  text-align: center;
+}
+
+.review_heading {
+  text-align: center;
+}
+.review_heading_two {
+  font-size: 40px;
+  font-weight: bold;
+}
+.review_img_container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.reviewImg_style {
+  width: 400px;
+  height: 350px;
+  margin: 0 20px;
+}
+
+@media screen and (max-width: 1024px) {
+  .background_image_section {
+    padding: 0px 0px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .background_image_div {
+    flex-direction: column;
+    padding: 40px 40px;
+  }
+  .review_heading_two {
+    font-size: 20px;
+  }
+  .reviewImg_style {
+    padding: 0 15px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .background_image_div {
+    width: 100%;
+    padding: 25px;
+  }
+  .review_heading_two {
+    font-size: 25px;
+  }
+  .reviewImg_style {
+    padding: 0 15px;
+  }
+}

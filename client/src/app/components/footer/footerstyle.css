@@ -1,0 +1,127 @@
+.footer_main_container{
+    background-color: #fff;
+}
+
+.footer_container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin:20px 0;
+ }
+
+ .footer_heading_container{
+    width: 400px;
+    height: 200px;
+    padding: 10px;
+
+
+ }
+.footer_input_container{
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+    
+}
+.footer_main_heading{
+    font-size: 2rem;
+    font-weight: 'bolder';
+    margin: 20px 0;
+}
+.footer_main_para{
+    font-size: 15px;
+}
+.ul_link li{
+    margin: 14px 0;
+}
+.footer_input_heading{
+    font-size: 1.8rem;
+    font-weight: 'bolder';
+    margin-top: 15px;
+}
+.footer_input_para{
+    margin-top: 15px;
+}
+
+.footer_input{
+    width: 300px;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #F6EDDC;
+    margin-top: 14px;
+    font-size: 15px;
+}
+/* small footer style start here  */
+.small_footer_main_container{
+    position: fixed;
+    bottom: 0;
+    background-color: #fff;
+    width: 100%;
+    z-index: 100;
+}
+
+.small_footer_child_container{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    padding: 8px;
+
+}
+.small_container{
+    width: 70px;
+    margin: 0 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+.middle_container{
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.small_footer_main_container{
+    display: none;
+}
+.small_footer_para{
+    font-size: 12px;
+    font-weight: 600;
+}
+
+ 
+
+ @media screen and (max-width: 650px) {
+ .widthsmall{
+    width: 100%;
+ }
+ .link_container{
+    width: 300px;
+    height: 200px;
+    margin: 20px 0;
+}
+.footer_input_container{
+    width: 100%;
+    padding: 20px;
+}
+.footer_input{
+    width: 350px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #F6EDDC;
+    margin-top: 14px;
+    font-size: 18px;
+}
+
+
+
+.footer_main_container{
+    display: none;
+}  
+.small_footer_main_container{
+    display: block;
+}
+
+  }
+  

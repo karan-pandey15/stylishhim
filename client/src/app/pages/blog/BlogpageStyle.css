@@ -1,0 +1,139 @@
+ 
+
+.aboutmain_container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    background-color: #FCF7EE;
+
+}
+
+.second_aboutimage_container{
+    
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.about_page_secimage{
+    width: 300px;
+    height: 500px;
+     
+    margin: 0 10px;
+}
+.about_pageimage{
+    width: 650px;
+    height: auto;
+}
+
+.aboutcontent_container{
+    width: 800px;
+    height: auto; 
+    padding: 10px;
+}
+
+.acoutcontent_paraone{
+    margin-top: 70px;
+}
+
+.acoutcontent_paratwo{
+    margin-top: 20px;
+}
+
+.aboutcontent_container h1{
+    margin-top: 10px;
+    font-size: 2.3rem;
+    font-weight: bolder;
+}
+.paraborder{
+    margin-top: 30px;
+    border-bottom: 1px solid #E3DCD2;
+}
+
+.three_content_container{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+
+.aboutimage_container_two{
+    display: flex;
+    flex-direction: row;
+}
+
+.secondpara_heading{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.secondheading{
+    font-weight: bold;
+    margin-top: 40px;
+
+}
+
+
+.childsecond_container > p
+{
+    margin-top: 20px;
+}
+
+.our_team_container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap ;
+    margin: 100px 30px;
+
+}
+.our_team_content_container{
+    
+
+}
+.our_teamcontainner_img{
+    width: 350px;
+    height: 400px;
+    padding: 5px;
+}
+.our_teamheading{
+    font-size: 30px;
+    font-weight: 500;
+    margin: 5px 0;
+}
+@media screen and (max-width: 650px) {
+    .acoutcontent_paraone {
+        margin-top: 0px;
+    }
+    .aboutmain_container
+    {
+        margin-top: 30px;
+    }
+
+    .about_pageimage{
+        margin-top: 20px;
+        padding: 10px;
+    }
+    .three_content_container{
+        display: flex;
+        flex-direction: column;
+    }
+    .three_content_container > span {
+        margin: 10px 0
+    };
+    .childsecond_container{
+        width: 100%;
+    }
+
+    .about_page_secimage{
+        width: 100%;
+        margin: 10px 5px;
+    }
+    
+  }
+  

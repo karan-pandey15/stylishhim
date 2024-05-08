@@ -1,0 +1,22 @@
+.background_color {
+  width: 100%;
+  height: 650px;
+  background-color: #fcf7ee;
+  padding: 40px;
+}
+
+.cart_heading {
+  text-align: center;
+}
+.banner_cart_heading {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+@media screen and (max-width: 600px) {
+  .background_color {
+    width: 100%;
+    height: auto;
+  }
+}

@@ -1,0 +1,80 @@
+/* Productregister.css */
+/* Productregister.css */
+
+.productregister_heading {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    padding-top: 25px;
+  }
+  
+  .productregister_child_container {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .productregister_first_container {
+    width: 1000px;
+    height: auto;
+  }
+  
+  .productregister_formcontainer {
+    padding: 20px;
+  }
+  
+  
+  .form_input {
+    width: calc(50% - 10px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: 10px;
+  }
+  
+  .form_button {
+    width: 100%;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 10px;
+    font-size: 18px;
+    background-color: #D2B48C;
+    border: none;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+
+  .main_product_register_container{
+    background-color: #FCF7EE ;
+    height: 100vh;
+    width: auto;
+  }
+  .form_file_img{
+    margin: 20px;
+  }
+  
+  @media screen and (max-width: 650px) {
+    .productregister_child_container {
+      flex-direction: column;
+    }
+  
+    .productregister_first_container {
+      order: 2;
+    }
+  
+    .form_row {
+      flex-direction: column;
+    }
+  
+    .form_input {
+      width: 100%; /* Set the width to full for small screens */
+    }
+    .productregister_formcontainer{
+        margin-top: 10px;
+    }
+    .productregister_first_container{
+        height: auto;
+        width: auto;
+    }
+  }
+  

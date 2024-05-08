@@ -1,0 +1,14 @@
+@media screen and (max-width: 1023px) {
+  .second_banner_scroll_container {
+    overflow-x: auto;
+    white-space: wrap;
+  }
+  .second_banner_scroll {
+    display: inline-flex;
+  }
+  .second_banner_card {
+    width: 300px;
+    height: 300px;
+    padding: 0 20px;
+  }
+}

@@ -1,0 +1,20 @@
+@media screen and (max-width: 1024px) {
+  .shop_submenu {
+    width: 70vw !important;
+  }
+  .shop_submenu_itemheading {
+    font-size: 18px !important;
+  }
+  .shop_submenu_items li {
+    font-size: 14px;
+  }
+  .pages_submenu_items li {
+    font-size: 14px;
+  }
+}
+.shop_submenu {
+  z-index: 100 !important;
+}
+.pages_submenu {
+  z-index: 100 !important;
+}

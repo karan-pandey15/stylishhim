@@ -1,0 +1,40 @@
+.main_order_container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;   
+}
+
+.order_heading{
+    text-align: center;
+    font-weight: bold;
+    font-size: 2rem;
+    color: red;
+}
+.order_child_div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.order_content_div{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    margin: 10px ;
+    border-radius: 8px;
+    cursor: pointer;
+    
+}
+.order_img{
+    height: 200px;
+    width: 200px;
+}
+.title_div{
+    font-weight: bold;
+    text-align: center;
+    font-size: 10px;
+
+}
+.price_div{
+    font-weight: bold;
+    text-align: center;
+    font-size: 10px;
+}
